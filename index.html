@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helpdesk Support Form</title>
+    <title>Helpdesk Support Request Form</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -91,10 +91,12 @@
                 <input type="tel" id="phone" name="phone" required>
             </div>
             <div class="form-group">
-                <label> Select one of the following that best applies to the issue that you're experiencing:</label>
+                <label> Reason for contact:</label>
                 <div class="radio-group">
                     <label><input type="radio" name="reason" value="Technical Issue" required> Technical Issue</label>
                     <label><input type="radio" name="reason" value="Account Issue"> Account Issue</label>
+                    <label><input type="radio" name="reason" value="Account Issue"> Reset Password</label>
+                    <label><input type="radio" name="reason" value="Account Issue"> Account Locked</label>
                     <label><input type="radio" name="reason" value="Other"> Other</label>
                 </div>
             </div>
