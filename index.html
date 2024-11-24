@@ -87,9 +87,19 @@
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="phone"> Contact Number:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
+    <label for="phone">Contact Number:</label>
+    <input 
+        type="tel" 
+        id="phone" 
+        name="phone" 
+        required 
+        pattern="[0-9]{10}" 
+        maxlength="10" 
+        minlength="10"
+        inputmode="numeric"
+        title="Please enter a 10-digit phone number"
+    >
+</div>
             <div class="form-group">
                 <label> Reason for contact:</label>
                 <div class="radio-group">
